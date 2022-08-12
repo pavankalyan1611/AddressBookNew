@@ -1,3 +1,5 @@
 ﻿using AddressBookNew;
 
-Contact contact = new Contact();
+AddressBook addressBook = new AddressBook();
+addressBook.AddNewContact();
+addressBook.Display();
